@@ -1,0 +1,19 @@
+@import '../font/font.css';
+@import 'layout.scss';
+@import 'typography.scss';
+@import 'components.scss';
+@import 'animations.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'TT Norms', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #e5e5e5;
+  line-height: 1.6;
+}
